@@ -11,4 +11,8 @@ export class ButtonComponent {
   constructor() {
     //
   }
+
+  onClick(): void {
+    this.count += 1;
+  }
 }
